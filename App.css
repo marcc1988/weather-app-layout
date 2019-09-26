@@ -1,0 +1,364 @@
+ .App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #09d3ac;
+}
+
+.App{
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+background-color: #031436;
+}
+
+ul,
+a,
+li {
+	text-decoration: none;
+	list-style-type:none;
+}
+
+.nav {
+	width:100%;
+	height: 100px;
+}
+
+.icon-color-grey{
+	color: 	#A9A9A9;
+}
+
+.nav  .nav-icon{
+	line-height: 50px;
+	left: 60px;
+	top: 20px;
+	position: fixed;
+	float: left;
+	margin: auto auto;
+}
+
+.main-banner{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-around;
+	top: 60px;
+	position: relative;
+	width: 100%;
+	margin-bottom: 200px;
+}
+
+.main-banner .nav-back{
+	height: 100px;
+	width: 100px;
+  top: 20px;
+  color:white;
+	position: relative;
+}
+
+.main-banner .inner-content{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 80%;
+	bottom: 20%;
+	height: 60%;
+	overflow: hidden;
+	border-radius:  10px;
+
+}
+
+.main-banner .inner-content  .card-header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	overflow: hidden;
+	background: url(https://cdn.clipart.email/ed30b0099c77acee6c167e6bfa09b558_paris-sightseeing-eiffel-tower-illustration-building-foreign-_650-400.jpeg) no-repeat;
+	background-size: cover;
+  opacity: 0.8;
+}
+
+.main-banner .inner-content .card-header .container-left{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	z-index: 90;
+	margin-top: 60px;
+	width: 45%;
+	right: 10%;
+	position: relative;
+}
+.main-banner .inner-content .card-header .container-left .container-temperature{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	left: 45%;
+	position: relative;
+}
+.main-banner .inner-content .card-header .container-left .container-temperature div{
+	font-size: 100px;
+	text-align: center;
+	color: rgb(29, 174, 231);
+}
+
+.main-banner .inner-content .card-header .container-left .container-temperature .container-temperature-degree{
+	border: 5px solid rgb(31, 220, 226);
+	height: 15px;
+	width: 15px;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+
+.main-banner .inner-content .card-header .container-left .container-situation{
+	font-size: 20px;
+	color: rgb(31, 220, 226);
+	letter-spacing: 10px;
+	z-index: 98;
+	text-align:center;
+	left: 5%;
+	position:relative;
+}
+
+.main-banner .inner-content .card-header .container-left .container-situation-specified{
+	font-size: 14px;
+	color:	#f0f8ff;
+	display:flex;
+	flex-wrap:wrap;
+	letter-spacing: 2px;
+	flex-direction:row;
+	justify-content: space-between;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	overflow:hidden;
+	left: 5%;
+	position: relative;
+}
+
+.main-banner .inner-content .card-header .container-left .container-situation-specified .container-situation-humidity, .main-banner .inner-content .card-header .container-left .container-situation-specified .container-situation-wind{
+	width: 49.7%;
+	text-align:center;
+}
+.main-banner .inner-content .card-header .container-left .container-situation-specified .container-situation-humidity div, .main-banner .inner-content .card-header .container-left .container-situation-specified .container-situation-wind div{
+	padding-top: 5px;
+  padding-bottom:5px;
+  color: #55ACEE;
+}
+.main-banner .inner-content .card-header .container-left .container-situation-specified .container-situation-humidity{
+	border-right: 0.5px solid rgb(31, 220, 226);
+}
+
+.main-banner .inner-content .card-header .container-left .container-situation-specified .container-situation-wind{
+	right: 5%;
+  position: relative;
+  color: #55ACEE;
+}
+
+.main-banner .inner-content .card-header .container-right{
+	color:rgb(31, 220, 226);
+	font-size: 28px;
+	font-weight: 200;
+	top:70px;
+	font-weight: 800;
+	letter-spacing: 4px;
+	position: relative;
+}
+
+.main-banner .inner-content .card-header .container-right div:after{
+	display:block;
+	position: absolute;
+	right:0;
+	left:0;
+	bottom:-5px;
+	content:'';
+	width:50%;
+	height: 2px;
+	margin: 0 auto;
+	background-color: rgb(31, 220, 226);
+}
+
+.icon-color-blue{
+	color: #55ACEE;
+}
+
+.main-banner .inner-content .card{
+	display: flex;
+	flex-direction: row;
+	z-index: 90;
+	justify-content: space-between;
+	background: white no-repeat;
+	background-size:cover;
+}
+
+.main-banner .inner-content .card .card-left{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: start;
+	justify-content: flex-start;
+	flex-grow: 1;
+	width:33%;
+}
+.main-banner .inner-content .card .card-left:after{
+	content:'';
+	position: relative;
+	left: auto;
+	top: auto;
+	top:14%;
+	height: 62%;
+	width: 3px;
+	background-color: grey;
+}
+.main-banner .inner-content .card .card-left-twitter{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	position: relative;
+	padding: 20px 20px;
+}
+
+.main-banner .inner-content .card .card-left-twitter div{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.main-banner .inner-content .card  .card-left-twitter .card-left-twitter-name{
+	font-size: 20px;
+}
+
+.main-banner .inner-content .card  .card-left-twitter .card-left-twitter-name samp{
+	color: grey;
+	margin-left: 8px;
+	font-size: 16px;
+}
+.main-banner .inner-content .card .card-left-bottom{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom:40px;
+}
+.main-banner .inner-content .card .card-left-bottom > div{
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+	align-items:center;
+	justify-content: flex-start; 
+	margin-bottom: 20px;
+	margin-top: 20px;
+	letter-spacing: 1.5px;
+	color: grey;
+}
+.main-banner .inner-content .card .card-left-bottom  .class-left-bottom-next{
+	position: relative;
+	left: 40%;
+	top: 20px;
+}
+.main-banner .inner-content .card .card-left-bottom .class-left-bottom-next div:nth-child(1){
+	margin-right: 8px;
+}
+.main-banner .inner-content .card .card-left-bottom .card-left-circle{
+	background-color:rgb(77, 203, 219);
+	height: 50px;
+	width: 50px;
+	border-radius:50%;
+	margin-right: 15px;
+}
+
+.main-banner .inner-content .card .card-right{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-content: center;
+	align-items: space-between;
+	flex-wrap:nowrap;
+	flex-grow: 2;
+	width: 60%;
+}
+
+.main-banner .inner-content .card .card-right-weather {
+	position: relative;
+	margin:60px auto;
+}
+.main-banner .inner-content .card .card-right .card-right-weather > div{
+	margin-top: 15px;
+}
+
+.main-banner .inner-content .card .card-right .card-right-weather >  div:nth-child(1){
+	font-size: 22px;
+	font-weight:800;
+	color: grey;
+}
+.main-banner .inner-content .card .card-right .card-right-weather .picture-sunny, .main-banner .inner-content .card .card-right .card-right-weather .picture-cloudy,
+.main-banner .inner-content .card .card-right .card-right-weather .picture-rainy, .main-banner .inner-content .card .card-right .card-right-weather .picture-windy{
+	height: 60px;
+	width: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-position: center;
+	background-size: cover;
+}
+.main-banner .inner-content .card .card-right .card-right-weather div:nth-child(3){
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+.main-banner .inner-content .card .card-right .card-right-weather .card-temperature-degree{
+	height: 4px;
+	width: 4px;
+	margin-left: 2px;
+	border: 0.5px solid black;
+	border-radius: 50%;
+}
+.main-banner .inner-content .card .card-right .card-right-weather .card-weather-situation{
+	font-size: 15px;
+	letter-spacing: 0.8px;
+	font-weight: 100;
+}
+.picture-sunny{
+	background: url(https://image.flaticon.com/icons/svg/709/709768.svg) no-repeat;
+
+}
+
+.picture-cloudy{
+	background: url(https://image.flaticon.com/icons/svg/709/709765.svg) no-repeat;
+}
+
+.picture-windy{
+	background: url(https://image.flaticon.com/icons/svg/824/824695.svg) no-repeat;
+	
+}
+.picture-rainy{
+	background: url(https://image.flaticon.com/icons/svg/709/709764.svg) no-repeat;
+	
+}
+
+
